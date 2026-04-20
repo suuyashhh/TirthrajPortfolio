@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirtharaj Patil | Portfolio</title>
+    <meta name="description" content="Portfolio of Tirtharaj Patil, B.Tech IT Student and Aspiring Developer at Walchand College of Engineering.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- 3D Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <nav id="navbar">
+        <div class="logo">TP<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h2 class="reveal">Hello, I'm</h2>
+                <h1 class="reveal-delay-1">Tirtharaj Patil</h1>
+                <p class="reveal-delay-2">B.Tech IT Student | Aspiring Developer</p>
+                <div class="hero-btns reveal-delay-3">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <span>Scroll Down</span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text glass-card">
+                        <p>I am a passionate B.Tech Information Technology student at <strong>Walchand College of Engineering</strong>. My focus is on building scalable web applications and exploring modern technologies.</p>
+                        <p>I thrive on solving complex problems and turning innovative ideas into reality through code. With a strong foundation in IT, I am constantly learning and adapting to the evolving tech landscape.</p>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-card glass-card">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5/CSS3</span>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <i class="fas fa-code"></i>
+                            <span>C# / .NET</span>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <i class="fas fa-database"></i>
+                            <span>SQL Server</span>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <i class="fas fa-server"></i>
+                            <span>ASP.NET</span>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git / GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-placeholder">
+                            <img src="assets/project1.png" alt="Banking App Dashboard">
+                        </div>
+                        <div class="project-info">
+                            <h3>Real-time Banking App</h3>
+                            <p>A full-stack banking solution with real-time transaction tracking and SignalR notifications.</p>
+                            <div class="tech-stack">
+                                <span>ASP.NET</span> <span>C#</span> <span>SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-placeholder">
+                            <img src="assets/project2.png" alt="Inventory Management System">
+                        </div>
+                        <div class="project-info">
+                            <h3>Inventory Management</h3>
+                            <p>Streamlined inventory tracking system with dashboard analytics and role-based access.</p>
+                            <div class="tech-stack">
+                                <span>JavaScript</span> <span>Node.js</span> <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-placeholder">
+                            <img src="assets/project3.png" alt="3D Portfolio Design">
+                        </div>
+                        <div class="project-info">
+                            <h3>Smart Portfolio</h3>
+                            <p>A 3D interactive portfolio built with Three.js and modern CSS techniques.</p>
+                            <div class="tech-stack">
+                                <span>Three.js</span> <span>CSS3</span> <span>HTML5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item glass-card right">
+                        <div class="content">
+                            <h3>Bachelor of Technology</h3>
+                            <p class="school">Walchand College of Engineering, Sangli</p>
+                            <p class="dept">Information Technology</p>
+                            <p class="date">2023 - 2027 (Expected)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item glass-card left">
+                        <div class="content">
+                            <h3>Higher Secondary Education</h3>
+                            <p class="school">State Board Maharashtra</p>
+                            <p class="date">2021 - 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <form class="contact-form glass-card">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 2024 Tirtharaj Patil. All rights reserved.</p>
+    </footer>
+
+    <!-- Three.js Library -->
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.150.1/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.150.1/examples/jsm/"
+        }
+    }
+    </script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
