@@ -401,6 +401,23 @@ body {
     padding: 25px;
 }
 
+.project-icon-large {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(0, 210, 255, 0.1), rgba(157, 80, 187, 0.1));
+}
+
+.project-icon-large i {
+    font-size: 5rem;
+    background: var(--neon-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 10px rgba(0, 210, 255, 0.3));
+}
+
 .project-info h3 {
     margin-bottom: 10px;
     color: var(--accent-blue);
